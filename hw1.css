@@ -1,0 +1,16 @@
+
+.header {
+    padding: 100px 400px;
+}
+ul {
+    margin: 5;
+    padding: 5;
+  }
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eeeeee;
+    font-size: 18px;
+    transition: 0.2s;
+  }
