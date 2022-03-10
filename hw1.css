@@ -1,16 +1,51 @@
-
+* {
+  box-sizing: border-box;
+}
 .header {
     padding: 100px 400px;
 }
 ul {
-    margin: 5;
-    padding: 5;
+    margin: 0;
+    padding: 0;
   }
   ul li {
     cursor: pointer;
     position: relative;
-    padding: 10px 6px 5px 23px;
-    background: #eeeeee;
+    padding: 10px 67px 7px 20px;
+    background: #1d1d1d;
     font-size: 16px;
+    color: beige;
     transition: 0.2s;
+
+    }
+    ul li:nth-child(even) {
+      background:rgb(83, 80, 221)
+    }
+    
+  .header {
+    background-color:#04010c;
+    padding: 20px 50px;
+    color: rgb(236, 232, 232);
+    text-align: center;
   }
+ .add_Btn {
+  padding: 7px;
+  width: 30%;
+  background: #fffdfd;
+  color: rgb(31, 29, 29);
+  float: center;
+  text-align: center;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.3s;
+ }
+ 
+
+ .check{
+   padding-left: 0;
+   width: 25px;
+ }
+ .close {
+   padding: 500px 40px 5px 
+ }
+  
